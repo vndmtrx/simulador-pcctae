@@ -1,0 +1,17 @@
+User-agent: Mediapartners-Google
+Disallow: 
+
+User-agent: *
+Allow: /
+
+User-agent: Zombies
+Disallow: /brains
+
+# Sorry, wget in its recursive mode is a frequent problem.
+# Please read the man page and use it properly; there is a
+# --wait option you can use to set the delay between hits,
+# for instance.
+User-agent: wget
+Disallow: /
+
+Sitemap: http://pcctae.com.br/sitemap.xml
