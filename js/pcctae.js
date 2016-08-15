@@ -62,7 +62,7 @@ Object.defineProperty(Pcctae.prototype, 'vencimento_basico', {
 		var st_sal = base_salario[this.periodo]['step'];
 		var st_exp = this._classe + this.nivel + this.progressao - 3; // caso no início da carreira, step não é calculado.
 		var ch_sal = this.carga_horaria;
-		var val = bs_sal * st_sal ** st_exp * ch_sal;
+		var val = bs_sal * Math.pow(st_sal, st_exp) * ch_sal;
 		return Math.round(val * 100) / 100; // Math.round(x * 100) / 100 -> decimal trick
 	}
 });
