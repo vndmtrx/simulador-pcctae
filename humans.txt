@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Eduardo Rolim -- benevolent dictator for life the universe and everything -- @vndmtrx
+
+# THANKS
+
+    My husband
+
+# OverStackFlow Inc
+
+    HTML5, CSS3
+    jQuery, Modernizr
