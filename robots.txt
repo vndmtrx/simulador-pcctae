@@ -1,5 +1,5 @@
 User-agent: Mediapartners-Google
-Disallow: 
+Disallow:
 
 User-agent: *
 Allow: /
@@ -14,4 +14,4 @@ Disallow: /brains
 User-agent: wget
 Disallow: /
 
-Sitemap: http://pcctae.com.br/sitemap.xml
+Sitemap: http://www.pcctae.com.br/sitemap.xml
