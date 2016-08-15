@@ -2,6 +2,11 @@
    Author's custom styles
    ========================================================================== */
 
+.jumbotron {
+  color: white;
+  background-color: #666;
+}
+
 label {
   margin-bottom: 0px;
   margin-top: 10px;
