@@ -42,7 +42,6 @@ var Pcctae = function() {
 };
 
 Object.defineProperty(Pcctae.prototype, 'classe', {
-	// Calcula o nível para o vencimento básico somente se as três propriedades estejam setadas. Senão, retorna -1.
 	enumerable: false,
 	set: function(cls){ (cls in classe) ? this._classe = classe[cls] : this._classe = 0 },
 	get: function(){ return this._classe}
@@ -58,7 +57,7 @@ Object.defineProperty(Pcctae.prototype, 'padrao_vencimento', {
 Object.defineProperty(Pcctae.prototype, 'vencimento_basico', {
 	// Calcula o nível para o vencimento básico somente se as três propriedades estejam setadas. Senão, retorna -1.
 	enumerable: false,
-	get: function(){ //get: function(){ return (this.classe && this.nivel && this.progressao) ? this.classe + this.nivel + this.progressao : -1 }
+	get: function(){
 		var bs_sal = base_salario[this.periodo]['base'];
 		var st_sal = base_salario[this.periodo]['step'];
 		var st_exp = this._classe + this.nivel + this.progressao - 3; // caso no início da carreira, step não é calculado.
