@@ -1,7 +1,5 @@
 "use strict";
 
-// Fix Math.round strange behavior
-
 var qualificacao = [
 	{direta: 0,    indireta: 0,   descricao: 'Mínima do Cargo'},
 	{direta: 0.1,  indireta: 0,   descricao: 'Fundamental Completo'},
